@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>건축 포트폴리오 | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gradient-to-br from-gray-100 to-blue-100 min-h-screen text-gray-900 font-sans">
+    <!-- 헤더 -->
+    <header class="bg-white/90 shadow border-b border-gray-200 sticky top-0 z-10">
+      <div class="max-w-6xl mx-auto flex justify-between items-center py-5 px-6">
+        <h1 class="text-3xl font-extrabold tracking-tight text-blue-800">ARCHI<span class="text-blue-500">PORT</span></h1>
+        <nav class="space-x-8 text-lg font-medium">
+          <a href="#home" class="hover:text-blue-600 transition">Home</a>
+          <a href="#aboutme" class="hover:text-blue-600 transition">About Me</a>
+          <a href="#portfolio" class="hover:text-blue-600 transition">Portfolio</a>
+          <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+          <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+          <a href="#login" class="hover:text-blue-600 transition">Login</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home 섹션 -->
+    <section id="home" class="max-w-6xl mx-auto py-24 px-6 flex flex-col md:flex-row items-center gap-16">
+      <div class="flex-1 flex flex-col gap-6">
+        <h2 class="text-5xl font-black mb-2 leading-tight text-gray-900">건축으로<br><span class="text-blue-600">나만의 공간</span>을 만듭니다</h2>
+        <p class="text-xl text-gray-700">창의적이고 실용적인 건축 디자인으로 새로운 가치를 제안하는 건축가의 포트폴리오입니다.</p>
+        <a href="#portfolio" class="mt-4 inline-block bg-blue-700 text-white px-8 py-3 rounded-none shadow-lg hover:bg-blue-800 transition font-bold text-lg">포트폴리오 보기</a>
+      </div>
+      <div class="flex-1 flex justify-center">
+        <div class="overflow-hidden shadow-2xl border-4 border-gray-200" style="border-radius:0">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=700&q=80" alt="Modern Cube Architecture" class="w-[400px] h-[350px] object-cover" style="border-radius:0" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me 섹션 -->
+    <section id="aboutme" class="max-w-4xl mx-auto py-20 px-6">
+      <h2 class="text-4xl font-bold mb-8 text-blue-700">About Me</h2>
+      <div class="bg-white/95 shadow border border-gray-200 p-10 text-lg text-gray-800 leading-relaxed" style="border-radius:0">
+        <p>안녕하세요! 저는 <span class="font-semibold text-blue-700">건축가 홍길동</span>입니다.<br>
+        공간의 본질을 탐구하고, 사람과 환경이 조화롭게 어우러지는 건축을 추구합니다.<br>
+        다양한 프로젝트 경험과 창의적인 설계로, 실용성과 미적 가치를 모두 만족시키는 공간을 만듭니다.</p>
+        <ul class="mt-6 list-disc list-inside text-base text-gray-600">
+          <li>학력: OOO대학교 건축학과 졸업</li>
+          <li>경력: 00건축사사무소, 00설계사무소 등</li>
+          <li>수상: 2023 대한민국 건축대전 입상</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portfolio 섹션 -->
+    <section id="portfolio" class="bg-white py-24 px-6 border-y border-gray-200">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold mb-14 text-center text-gray-900">Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- 작품 1 -->
+          <div class="overflow-hidden shadow-xl bg-white border border-gray-200 hover:scale-105 transition-transform" style="border-radius:0">
+            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80" alt="Cube House" class="h-56 w-full object-cover" style="border-radius:0" />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2 text-blue-700">큐브 하우스</h3>
+              <p class="text-gray-600 text-base">직선과 각진 형태, 대형 유리창을 활용한 모던 큐브형 주택.</p>
+            </div>
+          </div>
+          <!-- 작품 2 -->
+          <div class="overflow-hidden shadow-xl bg-white border border-gray-200 hover:scale-105 transition-transform" style="border-radius:0">
+            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80" alt="Glass Office" class="h-56 w-full object-cover" style="border-radius:0" />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2 text-blue-700">글라스 오피스</h3>
+              <p class="text-gray-600 text-base">파노라마 유리창과 각진 외관, 심플한 라인으로 완성된 오피스 빌딩.</p>
+            </div>
+          </div>
+          <!-- 작품 3 -->
+          <div class="overflow-hidden shadow-xl bg-white border border-gray-200 hover:scale-105 transition-transform" style="border-radius:0">
+            <img src="https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?auto=format&fit=crop&w=600&q=80" alt="Modern Culture Center" class="h-56 w-full object-cover" style="border-radius:0" />
+            <div class="p-6">
+              <h3 class="text-2xl font-semibold mb-2 text-blue-700">모던 컬처 센터</h3>
+              <p class="text-gray-600 text-base">유리와 콘크리트, 직선의 조화로 완성된 다목적 문화 공간.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills 섹션 -->
+    <section id="skills" class="max-w-4xl mx-auto py-20 px-6">
+      <h2 class="text-4xl font-bold mb-8 text-blue-700">Skills</h2>
+      <div class="bg-white/90 rounded-2xl shadow-xl p-10 border border-gray-200">
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg text-gray-800">
+          <li><span class="font-semibold text-blue-700">건축 설계</span> (AutoCAD, Revit, SketchUp, Rhino)</li>
+          <li><span class="font-semibold text-blue-700">3D 모델링 & 렌더링</span> (Lumion, V-Ray, Enscape)</li>
+          <li><span class="font-semibold text-blue-700">그래픽 디자인</span> (Photoshop, Illustrator)</li>
+          <li><span class="font-semibold text-blue-700">프레젠테이션</span> (InDesign, PowerPoint)</li>
+          <li><span class="font-semibold text-blue-700">프로젝트 관리</span> (팀 리딩, 일정 관리, 협업)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact 섹션 -->
+    <section id="contact" class="max-w-3xl mx-auto py-24 px-6">
+      <h2 class="text-4xl font-bold mb-10 text-center text-gray-900">Contact</h2>
+      <form class="bg-white/90 rounded-2xl shadow-xl p-10 space-y-8 border border-gray-200">
+        <div>
+          <label class="block mb-2 font-semibold text-gray-700" for="name">이름</label>
+          <input class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 text-lg" type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-semibold text-gray-700" for="email">이메일</label>
+          <input class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 text-lg" type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-semibold text-gray-700" for="message">메시지</label>
+          <textarea class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 text-lg" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-700 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-800 transition">보내기</button>
+      </form>
+    </section>
+
+    <!-- Login 섹션 -->
+    <section id="login" class="max-w-md mx-auto py-20 px-6">
+      <h2 class="text-3xl font-bold mb-8 text-blue-700 text-center">Login</h2>
+      <form class="bg-white/90 rounded-2xl shadow-xl p-10 space-y-8 border border-gray-200">
+        <div>
+          <label class="block mb-2 font-semibold text-gray-700" for="login-email">이메일</label>
+          <input class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 text-lg" type="email" id="login-email" name="login-email" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-semibold text-gray-700" for="login-password">비밀번호</label>
+          <input class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-400 text-lg" type="password" id="login-password" name="login-password" required />
+        </div>
+        <button type="submit" class="w-full bg-blue-700 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-800 transition">로그인</button>
+      </form>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="bg-gray-900 text-gray-200 py-8 mt-24">
+      <div class="max-w-6xl mx-auto text-center text-base">
+        &copy; 2024 ARCHIPORT. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html> 
